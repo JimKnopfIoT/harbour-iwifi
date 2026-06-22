@@ -1,0 +1,10 @@
+// harbour-iwifi — let the app's user (defaultuser) start/stop ONLY the
+// monitor-sniffer unit over the system bus, without a password prompt, so the
+// sandboxed app can app-gate it. No other unit and no other privilege.
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.systemd1.manage-units" &&
+        action.lookup("unit") == "harbour-iwifi-monitor.service" &&
+        subject.user == "defaultuser") {
+        return polkit.Result.YES;
+    }
+});
