@@ -1,0 +1,55 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+
+# QtCreator
+
+*.autosave
+
+#QtCtreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# --- iwifi: lokale Doku, Privates & Build-Artefakte NICHT veröffentlichen ---
+.claude/
+CLAUDE.md
+ANFORDERUNGEN.md
+PLAN.md
+ERREICHT-*.md
+RTL8812AU-BUILD.md
+upstream/
+RPMS/
+SRPMS/
+installroot/
+*.rpm
+build-*/
+*.local.sh
+documentation.list
+/harbour-iwifi
+# never publish device screenshots (may contain ambient SSIDs/MACs)
+Screenshot*.png
+screenshot*.png
+*-screenshot.png

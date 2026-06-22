@@ -1,0 +1,12 @@
+[Unit]
+Description=iWifi monitor-mode sniffer (external RTL8812AU adapter)
+# App-gated: started/stopped by harbour-iwifi over the system bus while it is in
+# the foreground. NOT WantedBy any target — it must never auto-start on boot or
+# on adapter hotplug, or it would drain the battery (proven the hard way).
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/harbour-iwifi-monitor-up.sh
+ExecStart=/usr/bin/harbour-iwifi-sniff wlan1 /tmp/iwifi-sniff.json
+ExecStopPost=/usr/bin/harbour-iwifi-monitor-down.sh
+Restart=no
