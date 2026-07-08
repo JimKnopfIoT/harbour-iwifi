@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-iwifi
+Exec=harbour-iwifi
+Name=iWifi
+
+[X-Sailjail]
+OrganizationName=org.iwifi
+ApplicationName=iwifi
+Permissions=Audio;Bluetooth;Camera;Compatibility;Internet;Location;MediaIndexing;Microphone;NFC;RemovableMedia;UserDirs;WebView;WpaScan

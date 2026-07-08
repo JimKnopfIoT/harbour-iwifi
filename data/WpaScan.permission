@@ -1,0 +1,21 @@
+# -*- mode: sh -*-
+
+# x-sailjail-description = Read WiFi scan results from wpa_supplicant
+# x-sailjail-long-description = Allows harbour-iwifi to read per-BSS scan data
+#   from wpa_supplicant over the system D-Bus (fi.w1.wpa_supplicant1).
+
+dbus-system.talk fi.w1.wpa_supplicant1
+
+# App-gates the monitor-mode sniffer: start/stop the harbour-iwifi-monitor
+# systemd unit over the system bus (a polkit rule restricts defaultuser to that
+# one unit). Lets the sniffer run only while the app is foregrounded (battery).
+dbus-system.talk org.freedesktop.systemd1
+
+# Base.permission forces `net none` (isolated, network-less namespace) which
+# blocks both the LAN client scan and the CVE Internet lookup. Ignore it so the
+# app shares the host network. (We ship via github, not the Harbour store.)
+ignore net none
+
+# The sniffer root helper writes /tmp/iwifi-sniff.json; Base sandboxes /tmp
+# (private-tmp). Share the host /tmp so the UI can read the snapshot.
+ignore private-tmp

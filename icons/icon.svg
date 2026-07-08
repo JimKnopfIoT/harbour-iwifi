@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <g filter="url(#glow)" opacity="0.7">
+    <path d="M 72.0 31.0 A 112.0 112.0 0 0 1 184.0 31.0" stroke="#ff7a00" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="0.90"/>
+    <path d="M 225.0 72.0 A 112.0 112.0 0 0 1 225.0 184.0" stroke="#ff7a00" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="0.90"/>
+    <path d="M 184.0 225.0 A 112.0 112.0 0 0 1 72.0 225.0" stroke="#ff7a00" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="0.90"/>
+    <path d="M 31.0 184.0 A 112.0 112.0 0 0 1 31.0 72.0" stroke="#ff7a00" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="0.90"/>
+  </g>
+  <g>
+    <path d="M 98.0 76.0 A 60.0 60.0 0 0 1 158.0 76.0" stroke="#8c8c8c" stroke-width="12.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 85.0 53.5 A 86.0 86.0 0 0 1 171.0 53.5" stroke="#d07b2c" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 72.0 31.0 A 112.0 112.0 0 0 1 184.0 31.0" stroke="#ff7a00" stroke-width="4.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 180.0 98.0 A 60.0 60.0 0 0 1 180.0 158.0" stroke="#8c8c8c" stroke-width="12.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 202.5 85.0 A 86.0 86.0 0 0 1 202.5 171.0" stroke="#d07b2c" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 225.0 72.0 A 112.0 112.0 0 0 1 225.0 184.0" stroke="#ff7a00" stroke-width="4.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 158.0 180.0 A 60.0 60.0 0 0 1 98.0 180.0" stroke="#8c8c8c" stroke-width="12.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 171.0 202.5 A 86.0 86.0 0 0 1 85.0 202.5" stroke="#d07b2c" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 184.0 225.0 A 112.0 112.0 0 0 1 72.0 225.0" stroke="#ff7a00" stroke-width="4.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 76.0 158.0 A 60.0 60.0 0 0 1 76.0 98.0" stroke="#8c8c8c" stroke-width="12.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 53.5 171.0 A 86.0 86.0 0 0 1 53.5 85.0" stroke="#d07b2c" stroke-width="7.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+    <path d="M 31.0 184.0 A 112.0 112.0 0 0 1 31.0 72.0" stroke="#ff7a00" stroke-width="4.0" stroke-linecap="round" fill="none" stroke-opacity="1.00"/>
+  </g>
+  
+  <!-- skull -->
+  <g>
+    <circle cx="128" cy="116" r="46" fill="#ff6d00"/>
+    <path d="M 102 150 Q 102 186 128 188 Q 154 186 154 150 Z" fill="#ff6d00"/>
+    <!-- eye sockets -->
+    <ellipse cx="110" cy="114" rx="13" ry="16" fill="#1a0a00"/>
+    <ellipse cx="146" cy="114" rx="13" ry="16" fill="#1a0a00"/>
+    <!-- nose -->
+    <path d="M 128 128 L 120 144 L 136 144 Z" fill="#1a0a00"/>
+    <!-- mouth + teeth -->
+    <path d="M 110 162 L 146 162" stroke="#1a0a00" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 119 162 L 119 182" stroke="#1a0a00" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 128 162 L 128 184" stroke="#1a0a00" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 137 162 L 137 182" stroke="#1a0a00" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+</svg>
