@@ -27,6 +27,21 @@ Page {
     property var pinned: ({})               // tapped hotspots: bssid -> cached data
     function pin(ap) { var p = pinned; p[ap.bssid] = ap; pinned = p }
 
+    // CAMERA CUTOUT
+    // This page draws its own header instead of a Silica `PageHeader`, so it
+    // does not get the margin PageHeader keeps for itself (`_minimumTopMargin`
+    // in PageHeader.qml). On the Jolla J2 the notch edge cut straight through
+    // the "Radar" title and the status line under it. The radar drawing may
+    // keep running under the cutout — it is a picture and its centre is what
+    // matters; the text may not.
+    //
+    // Portrait only, as Silica has it: in landscape the cutout is at the side
+    // and a top margin would be a gap for nothing. On a phone without one the
+    // rectangle is empty and this is zero, so it costs the other devices
+    // nothing.
+    readonly property real topInset: orientation === Orientation.Portrait
+                                     ? Screen.topCutout.height : 0
+
     // filters — set by tapping the corner mini-charts
     property int chFilter: 0                // 0 = all channels
     property int rssiBin: 0                 // 0 = all; else bucket (-40..-90, 10 dBm)
@@ -244,7 +259,7 @@ Page {
     Column {
         id: hdr
         anchors { top: parent.top; left: parent.left; right: parent.right
-                  topMargin: Theme.paddingLarge }
+                  topMargin: Theme.paddingLarge + radarPage.topInset }
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
             text: qsTr("Radar")

@@ -674,137 +674,137 @@
 <context>
     <name>RadarPage</name>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="102"/>
+        <location filename="../qml/pages/RadarPage.qml" line="117"/>
         <source>Map background on (needs GPS; zoom out)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="102"/>
+        <location filename="../qml/pages/RadarPage.qml" line="117"/>
         <source>Map background off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="198"/>
+        <location filename="../qml/pages/RadarPage.qml" line="213"/>
         <source>GPS: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="198"/>
-        <location filename="../qml/pages/RadarPage.qml" line="204"/>
-        <location filename="../qml/pages/RadarPage.qml" line="209"/>
         <location filename="../qml/pages/RadarPage.qml" line="213"/>
+        <location filename="../qml/pages/RadarPage.qml" line="219"/>
+        <location filename="../qml/pages/RadarPage.qml" line="224"/>
+        <location filename="../qml/pages/RadarPage.qml" line="228"/>
         <source>off</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="199"/>
+        <location filename="../qml/pages/RadarPage.qml" line="214"/>
         <source>on (fix)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="199"/>
+        <location filename="../qml/pages/RadarPage.qml" line="214"/>
         <source>on (acquiring…)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="204"/>
+        <location filename="../qml/pages/RadarPage.qml" line="219"/>
         <source>Map (OSM): %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="204"/>
-        <location filename="../qml/pages/RadarPage.qml" line="209"/>
-        <location filename="../qml/pages/RadarPage.qml" line="213"/>
+        <location filename="../qml/pages/RadarPage.qml" line="219"/>
+        <location filename="../qml/pages/RadarPage.qml" line="224"/>
+        <location filename="../qml/pages/RadarPage.qml" line="228"/>
         <source>on</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="194"/>
+        <location filename="../qml/pages/RadarPage.qml" line="209"/>
         <source>About</source>
         <translation type="unfinished">O programie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="209"/>
+        <location filename="../qml/pages/RadarPage.qml" line="224"/>
         <source>Coordinates: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="213"/>
+        <location filename="../qml/pages/RadarPage.qml" line="228"/>
         <source>Monitor mode: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="217"/>
+        <location filename="../qml/pages/RadarPage.qml" line="232"/>
         <source>LAN devices (ARP)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="221"/>
+        <location filename="../qml/pages/RadarPage.qml" line="236"/>
         <source>Band: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="221"/>
+        <location filename="../qml/pages/RadarPage.qml" line="236"/>
         <source>both</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="231"/>
+        <location filename="../qml/pages/RadarPage.qml" line="246"/>
         <source>Clear filters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="235"/>
+        <location filename="../qml/pages/RadarPage.qml" line="250"/>
         <source>Channel analysis</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="239"/>
+        <location filename="../qml/pages/RadarPage.qml" line="254"/>
         <source>Networks (list)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="250"/>
+        <location filename="../qml/pages/RadarPage.qml" line="265"/>
         <source>Radar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="258"/>
+        <location filename="../qml/pages/RadarPage.qml" line="273"/>
         <source>%1 dev · %5 · edge %2 m · %3× · facing %4°</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="261"/>
+        <location filename="../qml/pages/RadarPage.qml" line="276"/>
         <source>2.4+5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="271"/>
+        <location filename="../qml/pages/RadarPage.qml" line="286"/>
         <source>GPS acquiring…</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="285"/>
+        <location filename="../qml/pages/RadarPage.qml" line="300"/>
         <source>APs / channel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="342"/>
+        <location filename="../qml/pages/RadarPage.qml" line="357"/>
         <source>APs / RSSI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="490"/>
+        <location filename="../qml/pages/RadarPage.qml" line="505"/>
         <source>you ▲</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="604"/>
+        <location filename="../qml/pages/RadarPage.qml" line="619"/>
         <source>Zoom — out for the map, in for the devices</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/RadarPage.qml" line="615"/>
+        <location filename="../qml/pages/RadarPage.qml" line="630"/>
         <source>Up = where you point (compass). Radius = estimated distance — farthest AP at the edge; zoom to spread out near devices. Side arrows = APs off the narrow screen. Note: each device&apos;s ANGLE is only a placeholder — without a compass bearing per AP, only the distance is reliable.</source>
         <translation type="unfinished"></translation>
     </message>
