@@ -215,6 +215,8 @@ Use it to understand and harden your own Wi‑Fi.
 
 ---
 
+AI assisted development
+
 ## License & attribution
 
 Licensed under the **GNU General Public License v3 or later**. See `LICENSE`.
