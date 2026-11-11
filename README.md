@@ -215,7 +215,7 @@ Use it to understand and harden your own Wi‑Fi.
 
 ---
 
-AI assisted development
+LLM assisted development
 
 ## License & attribution
 
